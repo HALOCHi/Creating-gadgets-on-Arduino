@@ -1,4 +1,7 @@
 ```cpp
+int potValue = 0;  // Для хранения значения с потенциометра
+int brightness = 0;// Для хранения яркости
+
 void setup(){
     pinMode(4, OUTPUT);
     pinMode(A0, INPUT);
