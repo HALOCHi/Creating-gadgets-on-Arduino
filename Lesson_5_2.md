@@ -83,8 +83,8 @@ https://alexgyver.ru/lessons/hc-sr04/
 
 ```cpp
 // Объявляем переменные для пинов (контактов)
-const int trigPin = 9;   // Пин, подключенный к Trig
-const int echoPin = 10;  // Пин, подключенный к Echo
+const int trigPin = 11;   // Пин, подключенный к Trig
+const int echoPin = 12;  // Пин, подключенный к Echo
 const int ledPin = 13;   // Пин, подключенный к светодиоду
 
 void setup() {
