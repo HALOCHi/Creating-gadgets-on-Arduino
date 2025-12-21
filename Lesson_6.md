@@ -39,10 +39,9 @@
 
 ## 🔗 **Полезные ресурсы:**
 
-https://alexgyver.ru/lessons/ds18b20/
-https://robotclass.ru/tutorials/arduino-temperature-sensor/
+*  **https://alexgyver.ru/lessons/ds18b20/**
+*  **https://robotclass.ru/tutorials/arduino-temperature-sensor/**
 
-*   **[Сравнение DHT11, DHT22, AM2302](https://learn.adafruit.com/dht/overview)** — таблица с точными цифрами.
 
 ---
 
