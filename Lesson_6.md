@@ -39,7 +39,7 @@
 
 ## 🔗 **Полезные ресурсы:**
 
-*  **https://alexgyver.ru/lessons/ds18b20/**
+*  **https://3d-diy.ru/blog/datchik-vlazhnosti-i-temperatury-dht11/?srsltid=AfmBOor3gMygtuyu5FNrWMj1A_jBNLXZf0gtuCa0cWdUU0rfcTUua2Io**
 *  **https://robotclass.ru/tutorials/arduino-temperature-sensor/**
 
 
