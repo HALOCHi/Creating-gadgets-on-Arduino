@@ -28,7 +28,9 @@
 *   **Trig (Trigger — "курок")** — **Цифровой ВЫХОД** с Arduino. Сюда мы посылаем короткий сигнал, чтобы датчик "крикнул".
 *   **Echo (Эхо)** — **Цифровой ВХОД** на Arduino. Сюда датчик возвращает сигнал, чтобы мы измерили, как долго ждали ответ.
 
-![oring](https://github.com/user-attachments/assets/5b6365e4-5c42-4204-a1e6-da7a2dd2fb05)
+![oring]()
+<img width="1404" height="727" alt="HC-SR04_image" src="https://github.com/user-attachments/assets/5b6365e4-5c42-4204-a1e6-da7a2dd2fb05" />
+
 
 
 **4. Алгоритм работы (шаг за шагом):**
