@@ -174,15 +174,15 @@ void loop() {
 
   // 7. Простая текстовая интерпретация направления
   String direction = "ЦЕНТР";
-  if (joyY > 30) direction = "ВВЕРХ";
-  if (joyY < -30) direction = "ВНИЗ";
+  if (joyY > 30) direction = "ВНИЗ";
+  if (joyY < -30) direction = "ВВЕРХ";
   if (joyX > 30) direction = "ВПРАВО";
   if (joyX < -30) direction = "ВЛЕВО";
   // Комбинации (по диагонали)
-  if (joyY > 30 && joyX > 30) direction = "ВВЕРХ-ВПРАВО";
-  if (joyY > 30 && joyX < -30) direction = "ВВЕРХ-ВЛЕВО";
-  if (joyY < -30 && joyX > 30) direction = "ВНИЗ-ВПРАВО";
-  if (joyY < -30 && joyX < -30) direction = "ВНИЗ-ВЛЕВО";
+  if (joyY > 30 && joyX > 30) direction = "ВНИЗ-ВПРАВО";
+  if (joyY > 30 && joyX < -30) direction = "ВНИЗ-ВЛЕВО";
+  if (joyY < -30 && joyX > 30) direction = "ВВЕРХ-ВПРАВО";
+  if (joyY < -30 && joyX < -30) direction = "ВВЕРХ-ВЛЕВО";
 
   Serial.println(direction);
 
