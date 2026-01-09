@@ -30,8 +30,7 @@
 ### **2. Анатомия платы Arduino Uno**
 Давайте напишем первую программу - скетч - для нашего микроконтроллера:
 * Откройте приложение Arduino IDE
-  ![bLkJFtzSE1gijA8VO1NnxSnyjkasloOWeddB-YtgV97xTGysc_R4MOKgG4BcaChVOWvelrtVF7zVowUFC03gegz9DIeIFmfptwkbtN4T5_V501uSnYdGNjwG5dxOlBcbIekcH-UDLwKRB_3XTn869OxrG1avwaat41VkVc2IIH_8KEn2z0GiTVB-zsCY86Q2auAKRex3NgS9hkL9HDaBOdaOyx6Uo22D8AYNt0yPGrXOudonXve3nZPmY](https://github.com/user-attachments/assets/891a7aa1-823d-46d9-983a-cd3c63a7eac0)
-  <img width="300" height="300" alt="Снимок экрана_20260109_221117" src="https://github.com/user-attachments/assets/891a7aa1-823d-46d9-983a-cd3c63a7eac0" />
+  <img width="150" height="150" alt="Снимок экрана_20260109_221117" src="https://github.com/user-attachments/assets/891a7aa1-823d-46d9-983a-cd3c63a7eac0" />
 * Подключите вашу плату к компьютеру выберите правильную плату и порт в приложении:
   <img width="722" height="362" alt="Снимок экрана_20260109_221117" src="https://github.com/user-attachments/assets/29f2408e-e2c5-41aa-9788-1686b0078f53" />
 
