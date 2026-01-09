@@ -27,6 +27,22 @@
 <img width="600" height="422" alt="ucs-600x422" src="https://github.com/user-attachments/assets/09ff19ef-3eac-447c-bae6-bb566ab65dc8" />
 *На фото различные платы семейства Arduino*
 
+### **2. Анатомия платы Arduino Uno**
+Давайте напишем первую программу - скетч - для нашего микроконтроллера:
+* Откройте приложение Arduino IDE
+* Скопируйте в редактор кода этот скетч:
+```cpp
+void setup() {
+    pinMode(13, OUTPUT);
+}
+
+void loop() {
+    digitalWrite(13, HIGH);
+    delay(400);
+    digitalWrite(13, LOW);
+    delay(400);
+}
+```
 
 ### **2. Анатомия платы Arduino Uno**
 Давай рассмотрим нашу плату. Запомни три главные зоны:
