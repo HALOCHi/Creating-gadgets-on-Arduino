@@ -71,7 +71,6 @@ void loop() {
 
 🔗 **Полезные ресурсы:**
 *   [Подробный разбор джойстика от Алекса Гайвера](https://alexgyver.ru/lessons/joystick/)
-*   [Изучаем Arduino: Знакомство с джойстиком](https://iarduino.ru/news/izuchaem-arduino-znakomstvo-s-dzhoystikom.html)
 
 ---
 
