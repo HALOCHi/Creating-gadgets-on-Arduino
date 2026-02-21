@@ -239,7 +239,8 @@ byte heart[8] = {
 void setup() {
   lcd.init();
   lcd.createChar(0, heart);  // Регистрируем символ под номером 0
-  lcd.write(byte(0));        // Выводим созданный символ
+  lcd.setCursor(0, 0);
+  lcd.write(0);        // Выводим созданный символ
 }
 ```
 
