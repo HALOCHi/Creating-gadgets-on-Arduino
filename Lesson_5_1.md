@@ -86,8 +86,5 @@ void loop() {
 
 https://kit.alexgyver.ru/tutorials/Buzzer/
 
-*   **Официальный tutorial по tone():** [Arduino Tone Tutorial](https://www.arduino.cc/en/Tutorial/BuiltInExamples/toneMelody)
-*   **Генератор мелодий для Arduino:** [Arduino Melody Generator](https://www.arduino.cc/en/Tutorial/BuiltInExamples/tonePitchFollower) — можно написать свою музыку!
-*   **Частоты всех нот:** [Таблица частот нот](https://pages.mtu.edu/~suits/notefreqs.html) — для настоящих композиторов.
 
 ---
