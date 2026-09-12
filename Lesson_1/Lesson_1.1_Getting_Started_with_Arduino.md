@@ -45,8 +45,9 @@
 <img width="600" height="422" alt="ucs-600x422" src="https://github.com/user-attachments/assets/09ff19ef-3eac-447c-bae6-bb566ab65dc8" />
 *На фото различные платы семейства Arduino*
 
-
-
+-------------
+И для каждой платы можно найти распиновку, то есть что делает и за что отвечает каждый вход и выход на плате:
+<img width="698" height="711" alt="arduino-uno-pinout" src="https://github.com/user-attachments/assets/0d9df4ea-e9ac-4772-9576-0cf68f3f7b50" />
 
 
 
