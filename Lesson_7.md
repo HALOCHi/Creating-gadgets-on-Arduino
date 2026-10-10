@@ -238,6 +238,59 @@ void loop() {
 
 ---
 
+
+```cpp
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+
+const int joyX = A1;
+const int joyY = A0;
+
+
+const int SCREEN_WIDTH = 128;   // Ширина дисплея в пикселях
+const int SCREEN_HEIGHT = 64;   // Высота дисплея
+
+int X = SCREEN_WIDTH / 2;
+int Y = SCREEN_HEIGHT / 2;
+
+Adafruit_SSD1306 myOLED(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
+
+void setup() {
+  pinMode(joyX, INPUT);
+  pinMode(joyY, INPUT);
+  Serial.begin(9600);
+
+
+  if (!myOLED.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
+    Serial.println("Дисплей не найден!");
+    while (true);
+  }
+  myOLED.clearDisplay();
+  myOLED.setTextColor(SSD1306_WHITE);
+  myOLED.drawCircle(X, Y, 4, SSD1306_WHITE);
+  myOLED.display();
+}
+
+
+
+void loop() {
+  if (analogRead(joyY) > 900) {
+    
+  }
+  else if (analogRead(joyY) < 200) {
+
+  }
+  else if (analogRead(joyX) > 900) {
+
+  }
+  else if (analogRead(joyX) < 200) {
+
+  }
+
+}
+
+```
+
 **🎉 Поздравляю!** Теперь ты можешь создавать устройства с собственным интерфейсом — это уровень настоящих умных гаджетов. Следующим шагом может быть подключение джойстика для управления меню на экране или Bluetooth-модуля для вывода данных с телефона!
 
 --
