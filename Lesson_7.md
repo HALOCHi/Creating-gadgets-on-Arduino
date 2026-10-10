@@ -77,8 +77,8 @@
 #include <Adafruit_SSD1306.h>
 
 // Определяем константы для дисплея
-#define SCREEN_WIDTH 128   // Ширина дисплея в пикселях
-#define SCREEN_HEIGHT 64   // Высота дисплея
+const int SCREEN_WIDTH = 128;   // Ширина дисплея в пикселях
+const int SCREEN_HEIGHT = 64;  // Высота дисплея
 
 
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
