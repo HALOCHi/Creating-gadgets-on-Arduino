@@ -73,23 +73,17 @@
 Загрузи этот скетч. Он очистит экран, выведет текст разного размера и нарисует круг и прямоугольник.
 
 ```cpp
-// Подключаем необходимые библиотеки
-#include <SPI.h>
-#include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 
 // Определяем константы для дисплея
 #define SCREEN_WIDTH 128   // Ширина дисплея в пикселях
 #define SCREEN_HEIGHT 64   // Высота дисплея
-#define OLED_RESET    -1   // Если у дисплея нет пина RESET, ставим -1
 
-// Создаём объект дисплея с указанием адреса I2C (обычно 0x3C или 0x3D)
-Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
+
+Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 
 void setup() {
-  // Инициализируем дисплей с адресом 0x3C
-  // Если не работает, попробуй заменить на 0x3D
   if(!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
     Serial.println("Дисплей не найден!");
     while (true); // Бесконечный цикл (стоп), если дисплей не подключен
