@@ -305,3 +305,22 @@ void loop() {
 ---
 
 **🎉 Фантастика!** Теперь ты можешь создавать по-настоящему интерактивные устройства: игры, пульты управления, системы с обратной связью. Комбинация джойстика и дисплея открывает огромные возможности.
+
+
+```cpp
+void loop() {
+  if (analogRead(joyY) > 900){
+    Serial.println("Вверх!");
+  }
+  else if (analogRead(joyY) < 200){
+    Serial.println("Вниз!");
+  }
+  else if (analogRead(joyX) > 900){
+    Serial.println("Влево!");
+  }
+  else if (analogRead(joyX) < 200){
+    Serial.println("Вправо!");
+  }
+}
+
+```
